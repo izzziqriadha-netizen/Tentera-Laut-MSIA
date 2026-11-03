@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tentera Laut MSIA | Official Website</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #eef2f6;
+    color: #172b43;
+}
+
+header {
+    background: #071b35;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #d5b66b;
+    margin-top: 8px;
+}
+
+nav {
+    background: #102c4d;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 16px 20px;
+}
+
+nav a:hover {
+    background: #d5b66b;
+    color: #071b35;
+}
+
+.hero {
+    background: linear-gradient(90deg, #071b35, #16466d);
+    color: white;
+    text-align: center;
+    padding: 110px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.btn {
+    background: #d5b66b;
+    color: #071b35;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #102c4d;
+}
+
+.about {
+    text-align: center;
+    line-height: 1.8;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #00000015;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 15px 0;
+    color: #16466d;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+.icon {
+    font-size: 45px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 13px;
+    text-align: center;
+}
+
+th {
+    background: #102c4d;
+    color: white;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 18px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+footer {
+    background: #071b35;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 7px;
+    color: #ccc;
+}
+
+#message {
+    text-align: center;
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>⚓ TENTERA LAUT MSIA</h1>
+    <p>BERKHIDMAT DEMI NEGARA</p>
+</header>
+
+<nav>
+    <a href="#utama">Utama</a>
+    <a href="#tentang">Tentang Kami</a>
+    <a href="#armada">Armada</a>
+    <a href="#pangkat">Pangkat</a>
+    <a href="#permohonan">Permohonan</a>
+</nav>
+
+<div class="hero" id="utama">
+    <h2>TENTERA LAUT MSIA</h2>
+    <p>Selamat Datang ke Laman Rasmi Tentera Laut MSIA</p>
+    <a href="#tentang" class="btn">Ketahui Lebih Lanjut</a>
+</div>
+
+<section id="tentang">
+    <h2>Tentang Kami</h2>
+    <div class="about">
+        <p>
+            Tentera Laut MSIA merupakan sebuah organisasi
+            maritim fiksyen yang berperanan membangunkan
+            disiplin, kepimpinan dan semangat kerjasama
+            dalam kalangan anggotanya.
+        </p>
+        <br>
+        <p>
+            Organisasi ini menyediakan peluang kepada
+            ahli untuk menyertai pelbagai bahagian,
+            mempelajari pengurusan serta membangunkan
+            kemahiran kepimpinan.
+        </p>
+    </div>
+</section>
+
+<section id="armada">
+    <h2>Armada Tentera Laut MSIA</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🚢</div>
+            <h3>Kapal Permukaan</h3>
+            <p>Unit kapal permukaan dalam struktur armada MSIA.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🛳️</div>
+            <h3>Unit Sokongan</h3>
+            <p>Bahagian sokongan dan bantuan maritim.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🚁</div>
+            <h3>Udara Laut</h3>
+            <p>Bahagian penerbangan dan sokongan udara laut.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="pangkat">
+    <h2>Struktur Pangkat</h2>
+
+    <table>
+        <tr>
+            <th>Bil.</th>
+            <th>Pangkat</th>
+            <th>Kategori</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Admiral</td>
+            <td>Pegawai Tertinggi</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Vice Admiral</td>
+            <td>Pegawai Kanan</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Rear Admiral</td>
+            <td>Pegawai Kanan</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Captain</td>
+            <td>Pegawai</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Lieutenant</td>
+            <td>Pegawai</td>
+        </tr>
+    </table>
+</section>
+
+<section id="permohonan">
+    <h2>Permohonan Keahlian</h2>
+
+    <form id="joinForm">
+
+        <label>Nama Pengguna:</label>
+        <input type="text" id="nama"
+        placeholder="Masukkan nama anda" required>
+
+        <label>Umur:</label>
+        <input type="number" id="umur"
+        placeholder="Masukkan umur" min="1" required>
+
+        <label>Bahagian Pilihan:</label>
+        <select id="bahagian">
+            <option value="Armada">Armada</option>
+            <option value="Pentadbiran">Pentadbiran</option>
+            <option value="Udara Laut">Udara Laut</option>
+        </select>
+
+        <label>Sebab ingin menyertai:</label>
+        <textarea id="sebab" rows="4"
+        placeholder="Nyatakan sebab anda..." required></textarea>
+
+        <button type="submit" class="btn">
+            Hantar Permohonan
+        </button>
+
+        <p id="message"></p>
+    </form>
+</section>
+
+<footer>
+    <h3>TENTERA LAUT MSIA</h3>
+    <p>BERKHIDMAT DEMI NEGARA</p>
+    <p>© 2026 Tentera Laut MSIA. Hak Cipta Terpelihara.</p>
+    <p id="tarikh"></p>
+    <p>Projek Organisasi Fiksyen</p>
+</footer>
+
+<script>
+
+let tarikh = new Date();
+
+document.getElementById("tarikh").innerHTML =
+"Tarikh: " + tarikh.toLocaleDateString("ms-MY");
+
+document.getElementById("joinForm").addEventListener("submit",
+function(event) {
+
+    event.preventDefault();
+
+    let nama = document.getElementById("nama").value;
+    let umur = document.getElementById("umur").value;
+    let bahagian = document.getElementById("bahagian").value;
+    let sebab = document.getElementById("sebab").value;
+
+    if (nama.trim() === "" || umur === "" || sebab.trim() === "") {
+
+        document.getElementById("message").innerHTML =
+        "Sila lengkapkan semua maklumat!";
+
+    } else {
+
+        document.getElementById("message").innerHTML =
+        "Terima kasih " + nama +
+        "! Permohonan anda untuk bahagian " +
+        bahagian + " telah diterima (demo).";
+
+    }
+
+});
+
+</script>
+
+</body>
+</html>
